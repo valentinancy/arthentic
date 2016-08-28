@@ -1,0 +1,52 @@
+.login-container {
+  height: 700px;
+  margin-top: -29px;
+}
+
+.logo-login {
+  height: 60px;
+}
+
+.header-inner {
+  margin-left: 100px;
+}
+
+b {
+  font-weight: 500;
+}
+
+#menu-awesome {
+  font-size: 2em;
+  margin-top: 15px;
+  margin-left: 40px;
+  margin-right: 40px;
+  /*//text-shadow: 1px 1px 1px #ccc;*/
+}
+
+#user-awesome {
+  font-size: 2em;
+  margin-top: 15px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+#cog-awesome {
+  font-size: 2em;
+  margin-top: 15px;
+  margin-left: 40px;
+  margin-right: 20px;
+}
+
+#sign-out-awesome {
+  font-size: 2em;
+  margin-top: 15px;
+  margin-left: 40px;
+  margin-right: 20px;
+}
+
+#hi-panel {
+  font-size: 1.5em;
+  margin-top: 15px;
+  margin-left: 40px;
+  margin-right: 20px;
+}
