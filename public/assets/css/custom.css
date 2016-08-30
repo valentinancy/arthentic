@@ -50,3 +50,37 @@ b {
   margin-left: 40px;
   margin-right: 20px;
 }
+
+.counter-widget {
+  margin-left: 15px !important;
+  margin-right: 15px !important;
+  margin-top: 30px !important;
+  width: 300px;
+}
+
+.counter {
+  margin-left: 20px;
+}
+
+.bg-blue {
+  background-color: #106ecf;
+}
+
+.bg-red {
+  background-color: #f55753;
+}
+
+.bg-yellow {
+  background-color: #f8d053;
+}
+
+.white-box {
+  width: 400px;
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-right: 10px;
+  background-color: white;
+  height: 200px;
+  padding-left: 10px;
+  padding-right: 10px;
+}

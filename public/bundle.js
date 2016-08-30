@@ -27098,11 +27098,11 @@
 
 	var _Home2 = _interopRequireDefault(_Home);
 
-	var _Register = __webpack_require__(240);
+	var _Register = __webpack_require__(242);
 
 	var _Register2 = _interopRequireDefault(_Register);
 
-	var _CreateAccount = __webpack_require__(241);
+	var _CreateAccount = __webpack_require__(243);
 
 	var _CreateAccount2 = _interopRequireDefault(_CreateAccount);
 
@@ -27355,6 +27355,10 @@
 
 	var _Header2 = _interopRequireDefault(_Header);
 
+	var _Dashboard = __webpack_require__(240);
+
+	var _Dashboard2 = _interopRequireDefault(_Dashboard);
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -27379,31 +27383,7 @@
 	        'div',
 	        null,
 	        _react2.default.createElement(_Header2.default, null),
-	        _react2.default.createElement('br', null),
-	        _react2.default.createElement('br', null),
-	        _react2.default.createElement('br', null),
-	        _react2.default.createElement('br', null),
-	        _react2.default.createElement('br', null),
-	        _react2.default.createElement('br', null),
-	        _react2.default.createElement('br', null),
-	        _react2.default.createElement('br', null),
-	        _react2.default.createElement('br', null),
-	        _react2.default.createElement('br', null),
-	        _react2.default.createElement('br', null),
-	        _react2.default.createElement('br', null),
-	        _react2.default.createElement(
-	          'div',
-	          { className: 'text-center' },
-	          _react2.default.createElement(
-	            'h1',
-	            null,
-	            _react2.default.createElement(
-	              'b',
-	              null,
-	              'HEHE tar nyusul ya sisa nya coy'
-	            )
-	          )
-	        )
+	        _react2.default.createElement(_Dashboard2.default, null)
 	      );
 	    }
 	  }]);
@@ -27499,12 +27479,6 @@
 
 /***/ },
 /* 240 */
-/***/ function(module, exports) {
-
-	"use strict";
-
-/***/ },
-/* 241 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -27519,11 +27493,463 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _HeaderSecond = __webpack_require__(242);
+	var _Counter = __webpack_require__(241);
+
+	var _Counter2 = _interopRequireDefault(_Counter);
+
+	var _Other = __webpack_require__(247);
+
+	var _Other2 = _interopRequireDefault(_Other);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var Dashboard = function (_React$Component) {
+	  _inherits(Dashboard, _React$Component);
+
+	  function Dashboard() {
+	    _classCallCheck(this, Dashboard);
+
+	    return _possibleConstructorReturn(this, (Dashboard.__proto__ || Object.getPrototypeOf(Dashboard)).apply(this, arguments));
+	  }
+
+	  _createClass(Dashboard, [{
+	    key: 'render',
+	    value: function render() {
+	      return _react2.default.createElement(
+	        'div',
+	        null,
+	        _react2.default.createElement(_Counter2.default, null),
+	        _react2.default.createElement(_Other2.default, null)
+	      );
+	    }
+	  }]);
+
+	  return Dashboard;
+	}(_react2.default.Component);
+
+	exports.default = Dashboard;
+
+/***/ },
+/* 241 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var Counter = function (_React$Component) {
+	  _inherits(Counter, _React$Component);
+
+	  function Counter() {
+	    _classCallCheck(this, Counter);
+
+	    return _possibleConstructorReturn(this, (Counter.__proto__ || Object.getPrototypeOf(Counter)).apply(this, arguments));
+	  }
+
+	  _createClass(Counter, [{
+	    key: "render",
+	    value: function render() {
+	      return _react2.default.createElement(
+	        "div",
+	        { className: "counter" },
+	        _react2.default.createElement(
+	          "div",
+	          { className: "widget-8 panel no-border bg-success no-margin widget-loader-bar col-md-3 counter-widget" },
+	          _react2.default.createElement(
+	            "div",
+	            { className: "container-xs-height full-height" },
+	            _react2.default.createElement(
+	              "div",
+	              { className: "row-xs-height" },
+	              _react2.default.createElement(
+	                "div",
+	                { className: "col-xs-height col-top" },
+	                _react2.default.createElement(
+	                  "div",
+	                  { className: "panel-heading top-left top-right" },
+	                  _react2.default.createElement(
+	                    "div",
+	                    { className: "panel-title text-black hint-text" },
+	                    _react2.default.createElement(
+	                      "span",
+	                      { className: "font-montserrat fs-11 all-caps" },
+	                      "Weekly Sales ",
+	                      _react2.default.createElement("i", {
+	                        className: "fa fa-chevron-right" })
+	                    )
+	                  ),
+	                  _react2.default.createElement(
+	                    "div",
+	                    { className: "panel-controls" },
+	                    _react2.default.createElement(
+	                      "ul",
+	                      null,
+	                      _react2.default.createElement(
+	                        "li",
+	                        null,
+	                        _react2.default.createElement(
+	                          "a",
+	                          { "data-toggle": "refresh", className: "portlet-refresh text-black", href: "#" },
+	                          _react2.default.createElement("i", {
+	                            className: "portlet-icon portlet-icon-refresh" })
+	                        )
+	                      )
+	                    )
+	                  )
+	                )
+	              )
+	            ),
+	            _react2.default.createElement(
+	              "div",
+	              { className: "row-xs-height " },
+	              _react2.default.createElement(
+	                "div",
+	                { className: "col-xs-height col-top relative" },
+	                _react2.default.createElement(
+	                  "div",
+	                  { className: "row" },
+	                  _react2.default.createElement(
+	                    "div",
+	                    { className: "col-sm-6" },
+	                    _react2.default.createElement(
+	                      "div",
+	                      { className: "p-l-20" },
+	                      _react2.default.createElement(
+	                        "h3",
+	                        { className: "no-margin p-b-5 text-white" },
+	                        "$14,000"
+	                      ),
+	                      _react2.default.createElement(
+	                        "p",
+	                        { className: "small hint-text m-t-5" },
+	                        _react2.default.createElement(
+	                          "span",
+	                          { className: "label  font-montserrat m-r-5" },
+	                          "60%"
+	                        ),
+	                        "Higher"
+	                      )
+	                    )
+	                  ),
+	                  _react2.default.createElement("div", { className: "col-sm-6" })
+	                )
+	              )
+	            )
+	          )
+	        ),
+	        _react2.default.createElement(
+	          "div",
+	          { className: "widget-8 panel no-border bg-blue no-margin widget-loader-bar  col-md-3 counter-widget" },
+	          _react2.default.createElement(
+	            "div",
+	            { className: "container-xs-height full-height" },
+	            _react2.default.createElement(
+	              "div",
+	              { className: "row-xs-height" },
+	              _react2.default.createElement(
+	                "div",
+	                { className: "col-xs-height col-top" },
+	                _react2.default.createElement(
+	                  "div",
+	                  { className: "panel-heading top-left top-right" },
+	                  _react2.default.createElement(
+	                    "div",
+	                    { className: "panel-title text-black hint-text" },
+	                    _react2.default.createElement(
+	                      "span",
+	                      { className: "font-montserrat fs-11 all-caps" },
+	                      "Weekly Sales ",
+	                      _react2.default.createElement("i", {
+	                        className: "fa fa-chevron-right" })
+	                    )
+	                  ),
+	                  _react2.default.createElement(
+	                    "div",
+	                    { className: "panel-controls" },
+	                    _react2.default.createElement(
+	                      "ul",
+	                      null,
+	                      _react2.default.createElement(
+	                        "li",
+	                        null,
+	                        _react2.default.createElement(
+	                          "a",
+	                          { "data-toggle": "refresh", className: "portlet-refresh text-black", href: "#" },
+	                          _react2.default.createElement("i", {
+	                            className: "portlet-icon portlet-icon-refresh" })
+	                        )
+	                      )
+	                    )
+	                  )
+	                )
+	              )
+	            ),
+	            _react2.default.createElement(
+	              "div",
+	              { className: "row-xs-height " },
+	              _react2.default.createElement(
+	                "div",
+	                { className: "col-xs-height col-top relative" },
+	                _react2.default.createElement(
+	                  "div",
+	                  { className: "row" },
+	                  _react2.default.createElement(
+	                    "div",
+	                    { className: "col-sm-6" },
+	                    _react2.default.createElement(
+	                      "div",
+	                      { className: "p-l-20" },
+	                      _react2.default.createElement(
+	                        "h3",
+	                        { className: "no-margin p-b-5 text-white" },
+	                        "$14,000"
+	                      ),
+	                      _react2.default.createElement(
+	                        "p",
+	                        { className: "small hint-text m-t-5" },
+	                        _react2.default.createElement(
+	                          "span",
+	                          { className: "label  font-montserrat m-r-5" },
+	                          "60%"
+	                        ),
+	                        "Higher"
+	                      )
+	                    )
+	                  ),
+	                  _react2.default.createElement("div", { className: "col-sm-6" })
+	                )
+	              )
+	            )
+	          )
+	        ),
+	        _react2.default.createElement(
+	          "div",
+	          { className: "widget-8 panel no-border bg-red no-margin widget-loader-bar col-md-3 counter-widget" },
+	          _react2.default.createElement(
+	            "div",
+	            { className: "container-xs-height full-height" },
+	            _react2.default.createElement(
+	              "div",
+	              { className: "row-xs-height" },
+	              _react2.default.createElement(
+	                "div",
+	                { className: "col-xs-height col-top" },
+	                _react2.default.createElement(
+	                  "div",
+	                  { className: "panel-heading top-left top-right" },
+	                  _react2.default.createElement(
+	                    "div",
+	                    { className: "panel-title text-black hint-text" },
+	                    _react2.default.createElement(
+	                      "span",
+	                      { className: "font-montserrat fs-11 all-caps" },
+	                      "Weekly Sales ",
+	                      _react2.default.createElement("i", {
+	                        className: "fa fa-chevron-right" })
+	                    )
+	                  ),
+	                  _react2.default.createElement(
+	                    "div",
+	                    { className: "panel-controls" },
+	                    _react2.default.createElement(
+	                      "ul",
+	                      null,
+	                      _react2.default.createElement(
+	                        "li",
+	                        null,
+	                        _react2.default.createElement(
+	                          "a",
+	                          { "data-toggle": "refresh", className: "portlet-refresh text-black", href: "#" },
+	                          _react2.default.createElement("i", {
+	                            className: "portlet-icon portlet-icon-refresh" })
+	                        )
+	                      )
+	                    )
+	                  )
+	                )
+	              )
+	            ),
+	            _react2.default.createElement(
+	              "div",
+	              { className: "row-xs-height " },
+	              _react2.default.createElement(
+	                "div",
+	                { className: "col-xs-height col-top relative" },
+	                _react2.default.createElement(
+	                  "div",
+	                  { className: "row" },
+	                  _react2.default.createElement(
+	                    "div",
+	                    { className: "col-sm-6" },
+	                    _react2.default.createElement(
+	                      "div",
+	                      { className: "p-l-20" },
+	                      _react2.default.createElement(
+	                        "h3",
+	                        { className: "no-margin p-b-5 text-white" },
+	                        "$14,000"
+	                      ),
+	                      _react2.default.createElement(
+	                        "p",
+	                        { className: "small hint-text m-t-5" },
+	                        _react2.default.createElement(
+	                          "span",
+	                          { className: "label  font-montserrat m-r-5" },
+	                          "60%"
+	                        ),
+	                        "Higher"
+	                      )
+	                    )
+	                  ),
+	                  _react2.default.createElement("div", { className: "col-sm-6" })
+	                )
+	              )
+	            )
+	          )
+	        ),
+	        _react2.default.createElement(
+	          "div",
+	          { className: "widget-8 panel no-border bg-yellow no-margin widget-loader-bar  col-md-3 counter-widget" },
+	          _react2.default.createElement(
+	            "div",
+	            { className: "container-xs-height full-height" },
+	            _react2.default.createElement(
+	              "div",
+	              { className: "row-xs-height" },
+	              _react2.default.createElement(
+	                "div",
+	                { className: "col-xs-height col-top" },
+	                _react2.default.createElement(
+	                  "div",
+	                  { className: "panel-heading top-left top-right" },
+	                  _react2.default.createElement(
+	                    "div",
+	                    { className: "panel-title text-black hint-text" },
+	                    _react2.default.createElement(
+	                      "span",
+	                      { className: "font-montserrat fs-11 all-caps" },
+	                      "Weekly Sales ",
+	                      _react2.default.createElement("i", {
+	                        className: "fa fa-chevron-right" })
+	                    )
+	                  ),
+	                  _react2.default.createElement(
+	                    "div",
+	                    { className: "panel-controls" },
+	                    _react2.default.createElement(
+	                      "ul",
+	                      null,
+	                      _react2.default.createElement(
+	                        "li",
+	                        null,
+	                        _react2.default.createElement(
+	                          "a",
+	                          { "data-toggle": "refresh", className: "portlet-refresh text-black", href: "#" },
+	                          _react2.default.createElement("i", {
+	                            className: "portlet-icon portlet-icon-refresh" })
+	                        )
+	                      )
+	                    )
+	                  )
+	                )
+	              )
+	            ),
+	            _react2.default.createElement(
+	              "div",
+	              { className: "row-xs-height " },
+	              _react2.default.createElement(
+	                "div",
+	                { className: "col-xs-height col-top relative" },
+	                _react2.default.createElement(
+	                  "div",
+	                  { className: "row" },
+	                  _react2.default.createElement(
+	                    "div",
+	                    { className: "col-sm-6" },
+	                    _react2.default.createElement(
+	                      "div",
+	                      { className: "p-l-20" },
+	                      _react2.default.createElement(
+	                        "h3",
+	                        { className: "no-margin p-b-5 text-white" },
+	                        "$14,000"
+	                      ),
+	                      _react2.default.createElement(
+	                        "p",
+	                        { className: "small hint-text m-t-5" },
+	                        _react2.default.createElement(
+	                          "span",
+	                          { className: "label  font-montserrat m-r-5" },
+	                          "60%"
+	                        ),
+	                        "Higher"
+	                      )
+	                    )
+	                  ),
+	                  _react2.default.createElement("div", { className: "col-sm-6" })
+	                )
+	              )
+	            )
+	          )
+	        )
+	      );
+	    }
+	  }]);
+
+	  return Counter;
+	}(_react2.default.Component);
+
+	exports.default = Counter;
+
+/***/ },
+/* 242 */
+/***/ function(module, exports) {
+
+	"use strict";
+
+/***/ },
+/* 243 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _HeaderSecond = __webpack_require__(244);
 
 	var _HeaderSecond2 = _interopRequireDefault(_HeaderSecond);
 
-	var _Form = __webpack_require__(243);
+	var _Form = __webpack_require__(245);
 
 	var _Form2 = _interopRequireDefault(_Form);
 
@@ -27568,7 +27994,7 @@
 	exports.default = CreateAccount;
 
 /***/ },
-/* 242 */
+/* 244 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -27639,7 +28065,7 @@
 	exports.default = HeaderSecond;
 
 /***/ },
-/* 243 */
+/* 245 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -27773,6 +28199,112 @@
 	}(_react2.default.Component);
 
 	exports.default = Form;
+
+/***/ },
+/* 246 */,
+/* 247 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var Other = function (_React$Component) {
+	  _inherits(Other, _React$Component);
+
+	  function Other() {
+	    _classCallCheck(this, Other);
+
+	    return _possibleConstructorReturn(this, (Other.__proto__ || Object.getPrototypeOf(Other)).apply(this, arguments));
+	  }
+
+	  _createClass(Other, [{
+	    key: "render",
+	    value: function render() {
+	      return _react2.default.createElement(
+	        "div",
+	        null,
+	        _react2.default.createElement(
+	          "div",
+	          { className: "white-box text-center col-md-4" },
+	          _react2.default.createElement(
+	            "h3",
+	            null,
+	            _react2.default.createElement(
+	              "b",
+	              null,
+	              "Orders completed"
+	            )
+	          ),
+	          _react2.default.createElement("br", null),
+	          _react2.default.createElement(
+	            "p",
+	            null,
+	            "This is the amount of order you serve since the begining of the time, come on keep it up!! and make your self the best cafe your customer ever dream of. "
+	          )
+	        ),
+	        _react2.default.createElement(
+	          "div",
+	          { className: "white-box text-center col-md-4" },
+	          _react2.default.createElement(
+	            "h3",
+	            null,
+	            _react2.default.createElement(
+	              "b",
+	              null,
+	              "Unsatisfied Customer"
+	            )
+	          ),
+	          _react2.default.createElement("br", null),
+	          _react2.default.createElement(
+	            "p",
+	            null,
+	            "Dont you guys dare to make this zero number above increasing even to one number, all customer are special, all customer are the king. respect them, give em a big smile and say \"WELCOME TO ARTHENTIC CAFE HOW CAN I HELP YOU ?\""
+	          )
+	        ),
+	        _react2.default.createElement(
+	          "div",
+	          { className: "white-box text-center col-md-4" },
+	          _react2.default.createElement(
+	            "h3",
+	            null,
+	            _react2.default.createElement(
+	              "b",
+	              null,
+	              "Who made this app?"
+	            )
+	          ),
+	          _react2.default.createElement("br", null),
+	          _react2.default.createElement(
+	            "p",
+	            null,
+	            "it is one and only software house who has a lot of potential and skill with their finger, brain, a cup of coffee and a lil bit smile on their faces and voila! amazing apps is comming to your way visit: http://www.radiontech.net"
+	          )
+	        )
+	      );
+	    }
+	  }]);
+
+	  return Other;
+	}(_react2.default.Component);
+
+	exports.default = Other;
 
 /***/ }
 /******/ ]);
